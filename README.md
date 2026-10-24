@@ -15,11 +15,11 @@
 
 With the skills CLI:
 
-    npx skills add skillpi/skillpi
+    npx skills add Findskills/skillpi
 
 Or manually — clone this repo into your agent's skills directory:
 
-    git clone https://github.com/skillpi/skillpi ~/.claude/skills/skillpi
+    git clone https://github.com/Findskills/skillpi ~/.claude/skills/skillpi
 
 ## Use it
 
