@@ -1,0 +1,13 @@
+/* Approved uses: full lockup, wordmark, square Sπ. Preserve artwork proportions. */
+.topbar .brand{display:inline-flex;align-items:center;flex:none;gap:0;height:auto;line-height:0}
+.topbar .brand img.header-brand-wordmark{display:block;width:148px;height:auto;max-width:none;object-fit:contain;flex:none}
+.footer img.brand-full-lockup,.home-footer-brand img.brand-full-lockup{display:block;width:280px;max-width:100%;height:auto;object-fit:contain}
+.home-footer-brand .footer-back{display:inline-block;margin-top:20px}
+aside .brand img{display:block;width:148px;max-width:100%;height:auto;object-fit:contain}
+.creator-main>header>a>img[src*="wordmark"]{display:block;width:150px;max-width:100%;height:auto}
+.start-tile img[src*="brand/icon"]{object-fit:contain;border:1px solid #dce2f1;border-radius:12px;background:#fff}
+@media(max-width:760px){aside .brand img{width:112px;height:auto}}
+@media(max-width:650px){.topbar .brand img.header-brand-wordmark{width:124px}}
+@media(max-width:360px){.topbar .brand img.header-brand-wordmark{width:100px}}
+
+@media(min-width:761px){.home-footer-main{grid-template-columns:minmax(240px,1.35fr) repeat(4,minmax(0,1fr))}}
